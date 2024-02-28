@@ -1,3 +1,4 @@
 fun joinOptions(options: Collection<String>) =
         options.joinToString(prefix = "[", postfix = "]")
 
+digunakan untuk menggabungkan elemen-elemen yang ada di collection string. didalam joing tto string terdapat prefix dan postfix dan ditambahkan awalan "[" dan akhiran "]" untuk visualisasi
