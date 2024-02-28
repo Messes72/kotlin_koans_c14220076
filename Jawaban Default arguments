@@ -1,0 +1,11 @@
+fun foo(name: String, number: Int = 42, toUpperCase: Boolean = false) =
+        (if (toUpperCase) name.uppercase() else name) + number
+
+fun useFoo() = listOf(
+        foo("a"),
+        foo("b", number = 1),
+        foo("c", toUpperCase = true),
+        foo(name = "d", number = 2, toUpperCase = true)
+)
+
+pada soal dijelaskan bahwa function foo dibuat 3 kali dan 3"nya itu berbeda. nah todo yang kita kerjakan merupakan sebuah function dimana kita memanggil ketiga function foo tersebut dengan menggabungkan semua function tersebut menjadi 1 function saja. dan akan menjadi uppercase jika true
